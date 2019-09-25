@@ -6,17 +6,21 @@
     <Authors>Alexander Schmid</Authors>
     <Company>Alexander Schmid</Company>
     <Product>Microsoft Entity Framework Core</Product>
-    <PackageTags>Entity Framework Core;entity-framework-core;EF;Data;O/RM;EntityFramework;EntityFrameworkCore;EFCore;Oracle;</PackageTags>
+    <PackageTags>Entity Framework Core;entity-framework-core;EF;Data;O/RM;EntityFramework;EntityFrameworkCore;EFCore;Oracle;Provider;Entity;Framework;Core</PackageTags>
     <RepositoryType>git</RepositoryType>
     <Copyright>© Alexander Schmid. All rights reserved.</Copyright>
-    <Description>Oracle database provider for Entity Framework Core.</Description>
+    <Description>Df.EntityFrameworkCore.Oracle is an Entity Framework Core Oracle database provider. It allows you to use Entity Framework Core 2.X</Description>
     <RepositoryUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.9</Version>
-    <FileVersion>1.0.9.0</FileVersion>
-    <AssemblyVersion>1.0.9.0</AssemblyVersion>
-    <PackageReleaseNotes>2019-09-25 Forked project &amp; made various fixes</PackageReleaseNotes>
+    <Version>1.1.0</Version>
+    <FileVersion>1.1.0.0</FileVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <PackageReleaseNotes>2019-09-25
+- Forked project &amp; made various fixes
+- Fix paging issues
+- Fix ORA-00972: identifier is too long</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>latest</LangVersion>
