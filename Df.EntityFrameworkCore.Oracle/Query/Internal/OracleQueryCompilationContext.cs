@@ -37,11 +37,25 @@ namespace Df.EntityFrameworkCore.Oracle.Query.Internal
             return letters[index].ToString();
         }
 
-        private string GetUniqueTableAlias()
+        private string GenerateAlias(bool includeNumber = true)
         {
             var rdm = new Random();
+            var alias = GetRandomLetter(rdm);
+            if (includeNumber)
+            {
+                alias = $"{alias}{rdm.Next(0, 10)}";
+            }
+            return alias;
+        }
 
-            return GetRandomLetter(rdm) + rdm.Next(0, 10);
+        private string GetTableAlias(string currentAlias)
+        {
+            if (currentAlias.Contains("."))
+            {
+                return $"{GenerateAlias(false)}.{GenerateAlias()}";
+            }
+
+            return GenerateAlias();
         }
 
         public override string CreateUniqueTableAlias([NotNull] string currentAlias)
@@ -53,11 +67,10 @@ namespace Df.EntityFrameworkCore.Oracle.Query.Internal
                 return currentAlias;
             }
 
-            var uniqueAlias = GetUniqueTableAlias();
-
+            string uniqueAlias = GetTableAlias(currentAlias);
             while (_tableAliasSet.Contains(uniqueAlias))
             {
-                uniqueAlias = GetUniqueTableAlias();
+                uniqueAlias = GetTableAlias(currentAlias);
             }
 
             _tableAliasSet.Add(uniqueAlias);
