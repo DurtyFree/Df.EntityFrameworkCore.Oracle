@@ -1,7 +1,7 @@
-# Citms.EntityFrameworkCore.Oracle
+# Df.EntityFrameworkCore.Oracle
 Entity, Framework, EF, Core, Data, O/RM, entity-framework-core,Oracle
 
-Citms.EntityFrameworkCore.Oracle is an Entity Framework Core provider built on top of [Oracle.ManagedDataAccess.Core](http://www.oracle.com/technetwork/licenses/ea-license-152003.html). It allows us to use the Entity Framework Core ORM with Oracle.  Async functions in this library properly implement Async I/O at the lowest level.
+Df.EntityFrameworkCore.Oracle is an Entity Framework Core provider built on top of [Oracle.ManagedDataAccess.Core](http://www.oracle.com/technetwork/licenses/ea-license-152003.html). It allows us to use the Entity Framework Core ORM with Oracle.  Async functions in this library properly implement Async I/O at the lowest level.
 
 
 ## Getting Started
@@ -9,7 +9,7 @@ Citms.EntityFrameworkCore.Oracle is an Entity Framework Core provider built on t
 Here is a console application sample for accessing a Oracle database using Entity Framework:
 
 
-② Put `Citms.EntityFrameworkCore.Oracle` into your project's `.csproj` file
+② Put `Df.EntityFrameworkCore.Oracle` into your project's `.csproj` file
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -19,7 +19,7 @@ Here is a console application sample for accessing a Oracle database using Entit
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="Citms.EntityFrameworkCore.Oracle" Version="1.0.0" />
+	<PackageReference Include="Df.EntityFrameworkCore.Oracle" Version="1.0.0" />
   </ItemGroup>
   
 </Project>
@@ -87,7 +87,7 @@ namespace OracleTest
                 var blog1 = new Blog {
                     Title = "Title #1",
                     UserId = user.UserId,
-                    Tags = new List<string>() { "ASP.NET Core", "Oracle", "Citms" }
+                    Tags = new List<string>() { "ASP.NET Core", "Oracle", "Df" }
                 };
                 context.Add(blog1);
                 var blog2 = new Blog
@@ -105,7 +105,7 @@ namespace OracleTest
 
                 // Output data
                 var ret = context.Blogs
-                    .Where(x => x.Tags.Object.Contains("Citms"))
+                    .Where(x => x.Tags.Object.Contains("Df"))
                     .ToList();
                 foreach (var x in ret)
                 {
@@ -125,4 +125,4 @@ One of the easiest ways to contribute is to participate in discussions and discu
 
 ## License
 
-[MIT](https://github.com/CrazyJson/Citms.EntityFrameworkCore.Oracle/blob/master/LICENSE)
+[MIT](https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle/blob/master/LICENSE)
