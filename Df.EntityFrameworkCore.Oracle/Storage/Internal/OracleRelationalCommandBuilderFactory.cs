@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleRelationalCommandBuilderFactory : RelationalCommandBuilderFactory
     {

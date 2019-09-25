@@ -2,8 +2,8 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
-using Citms.EntityFrameworkCore.Oracle.Storage.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Storage.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
 
-namespace Citms.EntityFrameworkCore.Oracle.ValueGeneration.Internal
+namespace Df.EntityFrameworkCore.Oracle.ValueGeneration.Internal
 {
     public class OracleSequenceValueGeneratorFactory : IOracleSequenceValueGeneratorFactory
     {

@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Citms.EntityFrameworkCore.Oracle.Utilities
+namespace Df.EntityFrameworkCore.Oracle.Utilities
 {
     internal static class MemberInfoExtensions
     {

@@ -2,15 +2,15 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System.Collections.Generic;
-using Citms.EntityFrameworkCore.Oracle.Metadata;
-using Citms.EntityFrameworkCore.Oracle.Metadata.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Metadata;
+using Df.EntityFrameworkCore.Oracle.Metadata.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Citms.EntityFrameworkCore.Oracle.Migrations.Internal
+namespace Df.EntityFrameworkCore.Oracle.Migrations.Internal
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

@@ -2,11 +2,11 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System.Data;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleDateTimeTypeMapping : DateTimeTypeMapping
     {

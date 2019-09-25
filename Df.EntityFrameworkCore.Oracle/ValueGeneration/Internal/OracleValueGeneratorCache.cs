@@ -3,12 +3,12 @@
 
 using System.Collections.Concurrent;
 using System.Diagnostics;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
 
-namespace Citms.EntityFrameworkCore.Oracle.ValueGeneration.Internal
+namespace Df.EntityFrameworkCore.Oracle.ValueGeneration.Internal
 {
     public class OracleValueGeneratorCache : ValueGeneratorCache, IOracleValueGeneratorCache
     {

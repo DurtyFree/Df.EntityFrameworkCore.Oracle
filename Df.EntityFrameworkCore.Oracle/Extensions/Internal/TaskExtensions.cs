@@ -3,7 +3,7 @@
 
 using System.Threading.Tasks;
 
-namespace Citms.EntityFrameworkCore.Oracle.Extensions.Internal
+namespace Df.EntityFrameworkCore.Oracle.Extensions.Internal
 {
     internal static class TaskExtensions
     {

@@ -2,12 +2,12 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System.Data.Common;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleRelationalConnection : RelationalConnection, IOracleConnection
     {

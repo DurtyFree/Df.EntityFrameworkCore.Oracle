@@ -3,9 +3,9 @@
 
 using System;
 using System.Data.Common;
-using Citms.EntityFrameworkCore.Oracle.Infrastructure;
-using Citms.EntityFrameworkCore.Oracle.Infrastructure.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Infrastructure;
+using Df.EntityFrameworkCore.Oracle.Infrastructure.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore.Infrastructure;

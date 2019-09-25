@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.EntityFrameworkCore.Internal;
 
-namespace Citms.EntityFrameworkCore.Oracle.Utilities
+namespace Df.EntityFrameworkCore.Oracle.Utilities
 {
     [DebuggerStepThrough]
     internal static class Check

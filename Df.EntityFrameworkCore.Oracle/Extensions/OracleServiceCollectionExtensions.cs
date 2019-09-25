@@ -1,18 +1,18 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Citms.EntityFrameworkCore.Oracle.Infrastructure.Internal;
-using Citms.EntityFrameworkCore.Oracle.Internal;
-using Citms.EntityFrameworkCore.Oracle.Metadata.Conventions;
-using Citms.EntityFrameworkCore.Oracle.Migrations;
-using Citms.EntityFrameworkCore.Oracle.Migrations.Internal;
-using Citms.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal;
-using Citms.EntityFrameworkCore.Oracle.Query.Internal;
-using Citms.EntityFrameworkCore.Oracle.Query.Sql.Internal;
-using Citms.EntityFrameworkCore.Oracle.Storage.Internal;
-using Citms.EntityFrameworkCore.Oracle.Update.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
-using Citms.EntityFrameworkCore.Oracle.ValueGeneration.Internal;
+using Df.EntityFrameworkCore.Oracle.Infrastructure.Internal;
+using Df.EntityFrameworkCore.Oracle.Internal;
+using Df.EntityFrameworkCore.Oracle.Metadata.Conventions;
+using Df.EntityFrameworkCore.Oracle.Migrations;
+using Df.EntityFrameworkCore.Oracle.Migrations.Internal;
+using Df.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal;
+using Df.EntityFrameworkCore.Oracle.Query.Internal;
+using Df.EntityFrameworkCore.Oracle.Query.Sql.Internal;
+using Df.EntityFrameworkCore.Oracle.Storage.Internal;
+using Df.EntityFrameworkCore.Oracle.Update.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.ValueGeneration.Internal;
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Internal;

@@ -8,14 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle.Update.Internal
+namespace Df.EntityFrameworkCore.Oracle.Update.Internal
 {
     public class OracleModificationCommandBatch : ReaderModificationCommandBatch
     {

@@ -4,7 +4,7 @@
 using System;
 using Microsoft.EntityFrameworkCore.Query.ExpressionTranslators;
 
-namespace Citms.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal
+namespace Df.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal
 {
     public class OracleNewGuidTranslator : SingleOverloadStaticMethodCallTranslator
     {

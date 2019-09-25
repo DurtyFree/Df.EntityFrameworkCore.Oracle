@@ -5,16 +5,16 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Citms.EntityFrameworkCore.Oracle.Migrations.Operations;
-using Citms.EntityFrameworkCore.Oracle.Properties;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Migrations.Operations;
+using Df.EntityFrameworkCore.Oracle.Properties;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleDatabaseCreator : RelationalDatabaseCreator
     {

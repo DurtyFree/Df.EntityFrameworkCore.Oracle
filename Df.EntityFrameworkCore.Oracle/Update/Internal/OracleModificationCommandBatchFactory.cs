@@ -1,13 +1,13 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Citms.EntityFrameworkCore.Oracle.Infrastructure.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Infrastructure.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 
-namespace Citms.EntityFrameworkCore.Oracle.Update.Internal
+namespace Df.EntityFrameworkCore.Oracle.Update.Internal
 {
     public class OracleModificationCommandBatchFactory : IModificationCommandBatchFactory
     {

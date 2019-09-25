@@ -3,9 +3,9 @@
 
 using System;
 using System.Data.Common;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 
-namespace Citms.EntityFrameworkCore.Oracle.Scaffolding.Internal
+namespace Df.EntityFrameworkCore.Oracle.Scaffolding.Internal
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

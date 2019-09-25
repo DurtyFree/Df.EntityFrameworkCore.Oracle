@@ -5,16 +5,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Citms.EntityFrameworkCore.Oracle.Metadata;
-using Citms.EntityFrameworkCore.Oracle.Properties;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Metadata;
+using Df.EntityFrameworkCore.Oracle.Properties;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using EnumerableExtensions = Microsoft.EntityFrameworkCore.Internal.EnumerableExtensions;
 
-namespace Citms.EntityFrameworkCore.Oracle.Internal
+namespace Df.EntityFrameworkCore.Oracle.Internal
 {
     public class OracleModelValidator : RelationalModelValidator
     {

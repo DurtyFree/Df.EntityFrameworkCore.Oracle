@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace Citms.EntityFrameworkCore.Oracle.Diagnostics
+namespace Df.EntityFrameworkCore.Oracle.Diagnostics
 {
     /// <summary>
     ///     <para>

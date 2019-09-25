@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Citms.EntityFrameworkCore.Oracle.Utilities
+namespace Df.EntityFrameworkCore.Oracle.Utilities
 {
     internal static class StringBuilderExtensions
     {

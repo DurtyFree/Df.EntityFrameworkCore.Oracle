@@ -1,11 +1,11 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 
-namespace Citms.EntityFrameworkCore.Oracle.Query.Internal
+namespace Df.EntityFrameworkCore.Oracle.Query.Internal
 {
     public class OracleQueryCompilationContext : RelationalQueryCompilationContext
     {

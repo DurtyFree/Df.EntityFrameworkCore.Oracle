@@ -4,12 +4,12 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Citms.EntityFrameworkCore.Oracle.Properties;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Properties;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleExecutionStrategy : IExecutionStrategy
     {

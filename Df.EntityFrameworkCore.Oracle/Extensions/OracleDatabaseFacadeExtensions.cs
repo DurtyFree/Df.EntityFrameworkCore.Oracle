@@ -3,12 +3,12 @@
 
 using System;
 using System.Reflection;
-using Citms.EntityFrameworkCore.Oracle.Infrastructure.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Infrastructure.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace Citms.EntityFrameworkCore.Oracle.Extensions
+namespace Df.EntityFrameworkCore.Oracle.Extensions
 {
     /// <summary>
     ///     Oracle specific extension methods for <see cref="DbContext.Database" />.

@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Citms.EntityFrameworkCore.Oracle.Utilities
+namespace Df.EntityFrameworkCore.Oracle.Utilities
 {
     [AttributeUsage(
         AttributeTargets.Method | AttributeTargets.Parameter |

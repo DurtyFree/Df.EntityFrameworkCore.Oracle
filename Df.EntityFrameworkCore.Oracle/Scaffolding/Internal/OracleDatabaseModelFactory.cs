@@ -9,9 +9,9 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Citms.EntityFrameworkCore.Oracle.Internal;
-using Citms.EntityFrameworkCore.Oracle.Properties;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Internal;
+using Df.EntityFrameworkCore.Oracle.Properties;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -20,7 +20,7 @@ using Microsoft.EntityFrameworkCore.Scaffolding;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle.Scaffolding.Internal
+namespace Df.EntityFrameworkCore.Oracle.Scaffolding.Internal
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

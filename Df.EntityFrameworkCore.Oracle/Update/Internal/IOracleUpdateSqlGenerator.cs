@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore.Update;
 
-namespace Citms.EntityFrameworkCore.Oracle.Update.Internal
+namespace Df.EntityFrameworkCore.Oracle.Update.Internal
 {
     public interface IOracleUpdateSqlGenerator : IUpdateSqlGenerator
     {

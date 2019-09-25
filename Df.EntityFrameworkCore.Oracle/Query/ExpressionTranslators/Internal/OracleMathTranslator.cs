@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Query.Expressions;
 using Microsoft.EntityFrameworkCore.Query.ExpressionTranslators;
 
-namespace Citms.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal
+namespace Df.EntityFrameworkCore.Oracle.Query.ExpressionTranslators.Internal
 {
     public class OracleMathTranslator : IMethodCallTranslator
     {

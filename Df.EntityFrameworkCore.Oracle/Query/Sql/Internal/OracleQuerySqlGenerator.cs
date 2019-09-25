@@ -5,13 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Query.Expressions;
 using Microsoft.EntityFrameworkCore.Query.Sql;
 using Microsoft.EntityFrameworkCore.Storage;
 using Remotion.Linq.Clauses;
 
-namespace Citms.EntityFrameworkCore.Oracle.Query.Sql.Internal
+namespace Df.EntityFrameworkCore.Oracle.Query.Sql.Internal
 {
     public class OracleQuerySqlGenerator : DefaultQuerySqlGenerator
     {

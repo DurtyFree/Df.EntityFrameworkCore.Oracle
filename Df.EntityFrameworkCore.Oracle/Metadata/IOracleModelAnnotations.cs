@@ -3,7 +3,7 @@
 
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Citms.EntityFrameworkCore.Oracle.Metadata
+namespace Df.EntityFrameworkCore.Oracle.Metadata
 {
     public interface IOracleModelAnnotations : IRelationalModelAnnotations
     {

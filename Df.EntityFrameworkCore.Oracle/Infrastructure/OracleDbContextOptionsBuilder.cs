@@ -1,12 +1,12 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Citms.EntityFrameworkCore.Oracle.Infrastructure.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Infrastructure.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace Citms.EntityFrameworkCore.Oracle.Infrastructure
+namespace Df.EntityFrameworkCore.Oracle.Infrastructure
 {
     /// <summary>
     ///     <para>

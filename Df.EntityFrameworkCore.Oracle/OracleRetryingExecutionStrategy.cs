@@ -3,13 +3,13 @@
 
 using System;
 using System.Collections.Generic;
-using Citms.EntityFrameworkCore.Oracle.Storage.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Storage.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Citms.EntityFrameworkCore.Oracle
+namespace Df.EntityFrameworkCore.Oracle
 {
     public class OracleRetryingExecutionStrategy : ExecutionStrategy
     {

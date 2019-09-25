@@ -1,14 +1,14 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Citms.EntityFrameworkCore.Oracle.Scaffolding.Internal;
-using Citms.EntityFrameworkCore.Oracle.Storage.Internal;
+using Df.EntityFrameworkCore.Oracle.Scaffolding.Internal;
+using Df.EntityFrameworkCore.Oracle.Storage.Internal;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Scaffolding;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Citms.EntityFrameworkCore.Oracle.Design.Internal
+namespace Df.EntityFrameworkCore.Oracle.Design.Internal
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

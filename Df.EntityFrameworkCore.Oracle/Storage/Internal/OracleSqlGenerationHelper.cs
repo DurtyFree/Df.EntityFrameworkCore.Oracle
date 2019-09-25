@@ -4,10 +4,10 @@
 using System;
 using System.Text;
 using System.Text.RegularExpressions;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Citms.EntityFrameworkCore.Oracle.Storage.Internal
+namespace Df.EntityFrameworkCore.Oracle.Storage.Internal
 {
     public class OracleSqlGenerationHelper : RelationalSqlGenerationHelper
     {

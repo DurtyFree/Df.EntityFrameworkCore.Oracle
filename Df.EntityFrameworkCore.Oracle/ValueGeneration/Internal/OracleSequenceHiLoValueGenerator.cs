@@ -5,14 +5,14 @@ using System;
 using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
-using Citms.EntityFrameworkCore.Oracle.Storage.Internal;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Storage.Internal;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
 
-namespace Citms.EntityFrameworkCore.Oracle.ValueGeneration.Internal
+namespace Df.EntityFrameworkCore.Oracle.ValueGeneration.Internal
 {
     public class OracleSequenceHiLoValueGenerator<TValue> : HiLoValueGenerator<TValue>
     {

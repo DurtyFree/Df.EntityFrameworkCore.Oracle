@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Citms.EntityFrameworkCore.Oracle.Utilities
+namespace Df.EntityFrameworkCore.Oracle.Utilities
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

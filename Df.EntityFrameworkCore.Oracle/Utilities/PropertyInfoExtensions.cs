@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 using System.Linq;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using JetBrains.Annotations;
 
 // ReSharper disable once CheckNamespace

@@ -4,10 +4,10 @@
 using System;
 using System.Linq;
 using System.Text;
-using Citms.EntityFrameworkCore.Oracle.Metadata;
-using Citms.EntityFrameworkCore.Oracle.Metadata.Internal;
-using Citms.EntityFrameworkCore.Oracle.Migrations.Operations;
-using Citms.EntityFrameworkCore.Oracle.Utilities;
+using Df.EntityFrameworkCore.Oracle.Metadata;
+using Df.EntityFrameworkCore.Oracle.Metadata.Internal;
+using Df.EntityFrameworkCore.Oracle.Migrations.Operations;
+using Df.EntityFrameworkCore.Oracle.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Citms.EntityFrameworkCore.Oracle.Migrations
+namespace Df.EntityFrameworkCore.Oracle.Migrations
 {
     public class OracleMigrationsSqlGenerator : MigrationsSqlGenerator
     {
