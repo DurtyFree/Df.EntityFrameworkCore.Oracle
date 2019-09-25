@@ -13,15 +13,17 @@
     <RepositoryUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.0</Version>
-    <FileVersion>1.2.0.0</FileVersion>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <Version>1.3.0</Version>
+    <FileVersion>1.3.0.0</FileVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <PackageReleaseNotes>2019-09-25
 - Forked project &amp; made various fixes
 - Fix paging issues
 - Fix ORA-00972: identifier is too long
-- Fix ORA-00918: column ambiguously defined</PackageReleaseNotes>
+- Fix ORA-00918: column ambiguously defined
+- Various fixes for code first migrations creation</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageIconUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle/blob/master/icon.png?raw=true</PackageIconUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>latest</LangVersion>
