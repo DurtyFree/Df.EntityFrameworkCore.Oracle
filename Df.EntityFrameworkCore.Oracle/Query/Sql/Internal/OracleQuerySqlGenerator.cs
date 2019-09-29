@@ -129,7 +129,7 @@ namespace Df.EntityFrameworkCore.Oracle.Query.Sql.Internal
 
             if (RequiresRowNumberPaging(selectExpression))
             {
-                Sql.AppendLine().Append(")").Append(" WHERE ");
+                Sql.AppendLine().Append(") t)").Append(" WHERE ");
                 if (selectExpression.Limit != null)
                 {
                     Sql.Append("rownum <=");
@@ -170,7 +170,7 @@ namespace Df.EntityFrameworkCore.Oracle.Query.Sql.Internal
 
             if (RequiresRowNumberPaging(selectExpression))
             {
-                Sql.Append("SELECT * FROM(").AppendLine().Append("    ");
+                Sql.Append("SELECT * FROM (SELECT t.*,rownum RN  FROM(").AppendLine().Append("    ");
             }
 
             Sql.Append("SELECT ");
@@ -205,19 +205,6 @@ namespace Df.EntityFrameworkCore.Oracle.Query.Sql.Internal
                 ProcessExpressionList(selectExpression.Projection, GenerateProjection);
 
                 projectionAdded = true;
-
-                if (RequiresRowNumberPaging(selectExpression))
-                {
-                    if (selectExpression.OrderBy != null && selectExpression.OrderBy.Any())
-                    {
-                        string fields = string.Join(",", selectExpression.OrderBy.Select(x => x.ToString()).ToArray());
-                        Sql.Append(string.Format(", row_number() over(order by {0}) RN ", fields));
-                    }
-                    else
-                    {
-                        Sql.Append(",rownum RN ");
-                    }
-                }
             }
 
             if (!projectionAdded)

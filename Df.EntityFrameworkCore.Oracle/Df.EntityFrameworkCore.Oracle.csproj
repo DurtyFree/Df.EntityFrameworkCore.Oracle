@@ -13,10 +13,14 @@
     <RepositoryUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/DurtyFree/Df.EntityFrameworkCore.Oracle</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.3.0</Version>
-    <FileVersion>1.3.0.0</FileVersion>
-    <AssemblyVersion>1.3.0.0</AssemblyVersion>
-    <PackageReleaseNotes>2019-09-25
+    <Version>1.4.0</Version>
+    <FileVersion>1.4.0.0</FileVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <PackageReleaseNotes>2019-09-29
+- Better fix for exceptions with sorting
+- Fix ORA-00936: missing expression
+
+2019-09-25
 - Forked project &amp; made various fixes
 - Fix paging issues
 - Fix ORA-00972: identifier is too long
